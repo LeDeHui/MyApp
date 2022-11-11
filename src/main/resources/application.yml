@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://121.37.16.35:3306/wechat
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    database: 0
+    host: 121.37.16.35
+    password: '123456asdfg'
+    port: 6379
+#weixin:
+#  appid: wx6bb19f830ecae78a
+#  secret: 249f9f34ebb88eb90e27c03d36d4c52a
+weixin:
+  appid: wxd6b60f99cc081ede
+  secret: e1d233ce2507626678dd099fa5cf0a86
